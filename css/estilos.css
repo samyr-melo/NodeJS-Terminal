@@ -15,13 +15,13 @@
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: var(--branco);
+    background-image: linear-gradient( 90.1deg,  rgba(8,81,98,1) 14.5%, rgba(198,231,249,1) 135.4% );
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: auto;
     font-size: 14px;
-    color: var(--cinza-escuro);                                                            
+    color: var(--cinza-claro);                                                            
     box-sizing: border-box;
     text-align: center;
 }
@@ -29,12 +29,13 @@ body {
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
+    
 }
 
 /* CABEÇALHO */
 
 .cabecalho__container {
-    background-color: var(--branco);
+    background-image: linear-gradient( 90.1deg,  rgba(8,81,98,1) 14.5%, rgba(198,231,249,1) 135.4% );
     height: 80px;
     width: 100%;
     padding: 0 25px;
@@ -70,7 +71,7 @@ body {
 
 .cabecalho__audio {
     border: 0px;
-    background-color: var(--branco);
+    
 }
 
 .cabecalho__videos {
@@ -160,7 +161,7 @@ body {
 
 .menu__container {
     font-size: 14px;
-    background-color: var(--branco);
+    background-image: linear-gradient( 90.1deg,  rgba(8,81,98,1) 14.5%, rgba(198,231,249,1) 135.4% );
 }
 
 .menu__container::-webkit-scrollbar {
@@ -262,7 +263,7 @@ body {
     height: 63px;
     color: var(--branco);
     font-size: 16px;
-    background-color: var(--branco);
+    background-image: linear-gradient( 90.1deg,  rgba(8,81,98,1) 14.5%, rgba(198,231,249,1) 135.4% );
     padding: 0 20px;
     position: fixed;
     top: 80px;
@@ -295,7 +296,7 @@ body {
 
 .superior__slider{
     height: 100%;
-    background-color: var(--branco);
+    
 }
 
 /* SEÇÃO VÍDEOS */
@@ -319,12 +320,12 @@ iframe{
 
 .descricao-video .titulo-video {
     font-weight: 700;
-    color: var(--cinza-escuro);
+    color: var(--branco);
 }
 
 .descricao-video .titulo-canal {
     font-size: 14px;
-    color: var(--cinza-escuro);
+    color: var(--branco);
 }
 
 @media(min-width: 834px) {
@@ -346,6 +347,8 @@ iframe{
     .menu__lista li {
         width: 100%;
     }
+
+    
 
     /* ESTILOS DA SECAO SUPERIOR */
 
